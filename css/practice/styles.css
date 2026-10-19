@@ -1,0 +1,47 @@
+.outer-container {
+  width: 400px;
+  height: 400px;
+  background-color: blueviolet;
+  margin: 100px auto;
+  color: blue;
+}
+
+.inner-container {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: scale(0.5); */
+  /* transform: scalez(0.5); */
+  /* transform: skew(25deg, 30deg); */
+  /* transform: skew(30deg); */
+
+  /* transform: translate(-20px, 60px); */
+  /* transform: translate(50%, 50%); centers the inner box */
+  /* transform: rotate(25deg); */
+  transition: 0.6s ease-in;
+}
+
+.inner-container:hover {
+  transform: rotate(25deg);
+}
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+
+  margin: 100px auto;
+  transition: 1s;
+  transition-duration: 0.5s;
+  transition-property: border-radius background-color transform;
+  transition-delay: 0.13s;
+  transition-timing-function: linear;
+} */
+
+/* .box:hover {
+  background-color: olivedrab;
+  border-radius: 50%;
+  transform: rotate(33deg);
+} */
