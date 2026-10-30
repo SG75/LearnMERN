@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: thistle;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  flex-direction: column;
+}
+
+.gridBoxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5rem;
+  margin: 5rem;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+.red {
+}
+
+.blue {
+}
+
+.green {
+}
+
+.yellow {
+}
+
+.input {
+  margin: 3rem;
+}
+
+#nameInput {
+  padding: 0.5rem;
+}
+
+#nameInput:hover {
+  border: 1px solid tomato;
+}
+
+#greet {
+  padding: 0.5rem 1rem;
+}
+
+#greet:hover {
+  color: tomato;
+  border: 1px solid tomato;
+}
